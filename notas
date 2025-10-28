@@ -1,0 +1,7 @@
+Ejercicio 3.1
+
+tieneEstrella(+RegEx)
+
+Para este ejercicio lo principal es plantear los casos base en donde la evaluacion devuelve un valor de verdad. 
+Estos casos son cuando el regex es vacio, porque un vacio no contiene una estrella, y cuando el propio constructor es un `star(_)` (con _ para denotar que lo que vaya dentro no importa).
+El resto de los casos delegan a la recursion
